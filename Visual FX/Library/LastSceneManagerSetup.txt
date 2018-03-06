@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Kirby/NewLights.unity
+=======
+- path: Assets/Taylor/Taylor-MB+.unity
+>>>>>>> origin/Taylor
   isLoaded: 1
   isActive: 1
