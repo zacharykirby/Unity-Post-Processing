@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Kirby/NewLights.unity
+=======
+- path: Assets/Andrew/Fog.unity
+>>>>>>> origin/ay-Fog
   isLoaded: 1
   isActive: 1
