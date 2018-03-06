@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Lights.unity
+- path: Assets/Andrew/Fog.unity
   isLoaded: 1
   isActive: 1
