@@ -27,8 +27,8 @@ RenderSettings:
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
-  m_HaloStrength: 0.5
-  m_FlareStrength: 1
+  m_HaloStrength: 0.313
+  m_FlareStrength: 0.548
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
@@ -153,7 +153,7 @@ Light:
     m_NearPlane: 0.2
   m_Cookie: {fileID: 0}
   m_DrawHalo: 1
-  m_Flare: {fileID: 0}
+  m_Flare: {fileID: 12100000, guid: 54fbbf098d116effa00081aba8ad6659, type: 2}
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
@@ -172,7 +172,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1132601772}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 126.9, y: 51.2, z: 144.2}
+  m_LocalPosition: {x: 127.3, y: 51.4, z: 144.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -231,6 +231,7 @@ GameObject:
   - component: {fileID: 1802162549}
   - component: {fileID: 1802162548}
   - component: {fileID: 1802162547}
+  - component: {fileID: 1802162551}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -300,6 +301,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -24.309002, y: 145.25801, z: 0}
+--- !u!114 &1802162551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1802162546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: e9c1933681de441a5b7143d9b778d6e9, type: 2}
 --- !u!1 &2008811336
 GameObject:
   m_ObjectHideFlags: 0
