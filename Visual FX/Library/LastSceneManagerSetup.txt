@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Taylor/Taylor-MB+.unity
+- path: Assets/Davis/Depth of Field.unity
   isLoaded: 1
   isActive: 1
